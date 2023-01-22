@@ -3,7 +3,6 @@ body {
 }
 
 .cabecalho {
-  
     display: flex;
     justify-content: space-between;
     padding: 30px;
@@ -12,10 +11,10 @@ body {
 }
 
 .cabecalho .logo {
-   width: 65px; 
+    width: 65px;
 }
 
-.cabecalho .menu {
+.cabecalho .menu{
     display: flex;
     align-items: center;
     height: 100%;
@@ -23,7 +22,7 @@ body {
 
 .cabecalho nav li a {
     font-weight: bold;
-    color: white;
+    color: #ffffff;
     font-size: 25px;
     padding: 10px 20px;
     border-radius: 50px;
@@ -31,8 +30,7 @@ body {
 }
 
 .cabecalho nav li a:hover {
-    background-color: #d5011b;
-
+    background-color: #d5011d;
 }
 
 .container {
@@ -46,7 +44,7 @@ body {
 
 .container .imagem-titulo {
     max-width: 500px;
-} 
+}
 
 .container .descricao {
     color: #a8adb7;
@@ -57,7 +55,7 @@ body {
 
 .container .botao-trailer {
     background-color: #ff0021;
-    color: white;
+    color: #ffffff;
     padding: 15px;
     font-size: 18px;
     font-weight: bold;
@@ -67,12 +65,11 @@ body {
     transition: 0.5s all ease-in-out;
 }
 
-.container .botao-trailer:hover  {
-    transform: scale(1.1);
+.container .botao-trailer:hover {
+    transform: scale(1.1)
 }
 
 .fundo-video {
-    background-color: rgba(0, 0, 0, 0.856);
     position: absolute;
     z-index: -1;
     width: 100vw;
@@ -102,18 +99,17 @@ body {
     height: 100vh;
     top: 0;
     left: 0;
-    background-color: rgba(52,52,50,0.749);
+    background-color: rgba(52, 52, 50, 0.749);
     opacity: 0;
     visibility: hidden;
-
 }
 
-.conteudo.modal {
+.conteudo-modal {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height:100vh;
+    height: 100vh;
     border-radius: 5px;
     gap: 15px;
 }
@@ -123,7 +119,7 @@ body {
     color: #f03a17;
     font-weight: bold;
     font-size: 20px;
-    width:40px;  
+    width: 40px;
     text-align: center;
     cursor: pointer;
     border-radius: 10px;
@@ -139,4 +135,6 @@ body {
     opacity: 1;
     visibility: visible;
 }
+
+
 
