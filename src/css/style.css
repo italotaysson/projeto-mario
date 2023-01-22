@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins';
 }
 
-header.cabecalho {
+.cabecalho {
   
     display: flex;
     justify-content: space-between;
@@ -11,17 +11,17 @@ header.cabecalho {
     margin: 0 auto;
 }
 
-header.cabecalho .logo {
+.cabecalho .logo {
    width: 65px; 
 }
 
-header.cabecalho .menu {
+.cabecalho .menu {
     display: flex;
     align-items: center;
     height: 100%;
 }
 
-header.cabecalho nav li a {
+.cabecalho nav li a {
     font-weight: bold;
     color: white;
     font-size: 25px;
@@ -30,7 +30,7 @@ header.cabecalho nav li a {
     transition: 0.2s;
 }
 
-header.cabecalho nav li a:hover {
+.cabecalho nav li a:hover {
     background-color: #d5011b;
 
 }
@@ -93,8 +93,6 @@ header.cabecalho nav li a:hover {
     position: absolute;
     top: 0;
     left: 0;
-
-    
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
 }
 
